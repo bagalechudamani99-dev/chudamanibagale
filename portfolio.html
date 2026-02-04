@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CM Bagale | Civil Engineer Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    color:#fff;
+    background:#000;
+}
+
+/* NAVBAR */
+nav{
+    position:fixed;
+    width:100%;
+    padding:15px 40px;
+    background:rgba(0,0,0,0.55);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+}
+nav a:hover{color:#00ffd5}
+
+/* HERO */
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+    url('https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.hero h1{font-size:3.5rem;margin-bottom:10px}
+.hero p{font-size:1.4rem;opacity:.9}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 36px;
+    border-radius:40px;
+    background:linear-gradient(45deg,#00ffd5,#00aaff);
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECTION COMMON */
+section{
+    padding:90px 10%;
+}
+h2{
+    text-align:center;
+    font-size:2.4rem;
+    margin-bottom:50px;
+}
+
+/* GLASS CARD */
+.card{
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(14px);
+    border-radius:18px;
+    padding:25px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+/* ABOUT BG */
+.about{
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url('https://images.pexels.com/photos/210399/pexels-photo-210399.jpeg');
+    background-size:cover;
+}
+
+/* SKILLS BG */
+.skills{
+    background:
+    linear-gradient(rgba(15,32,39,.9),rgba(44,83,100,.9)),
+    url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg');
+    background-size:cover;
+}
+
+/* PROJECT BG */
+.projects{
+    background:
+    linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.85)),
+    url('https://images.pexels.com/photos/41170/engineering-engineer-architecture-building-41170.jpeg');
+    background-size:cover;
+}
+
+/* STATS */
+.stats{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    text-align:center;
+}
+.stat{
+    margin:20px;
+}
+.stat h3{font-size:2.3rem;color:#00ffd5}
+
+/* CONTACT */
+.contact{
+    background:
+    linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.9)),
+    url('https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg');
+    background-size:cover;
+}
+.social a{
+    display:inline-block;
+    margin:12px;
+    color:#00ffd5;
+    text-decoration:none;
+    font-size:1.1rem;
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    padding:20px;
+    text-align:center;
+    font-size:.9rem;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero h1{font-size:2.6rem}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<strong>CM Bagale</strong>
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<div>
+<h1>CM Bagale</h1>
+<p id="roleText">Civil Engineer | Kathmandu, Nepal</p>
+<a class="btn" href="#contact">Work With Me</a>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>
+I am <strong>CM Bagale</strong>, a dedicated <strong>Civil Engineer</strong> from
+<strong>Tarkeshwor-4, Kathmandu</strong>. My expertise spans structural design,
+site supervision, surveying, and construction management.
+</p>
+<p><strong>📞 Phone:</strong> 9846491725</p>
+<p><strong>✉️ Email:</strong> bagalechudamani99@gmail.com</p>
+</div>
+
+<div class="stats">
+<div class="stat">
+<h3>5+</h3>
+<p>Years Learning & Practice</p>
+</div>
+<div class="stat">
+<h3>30+</h3>
+<p>Projects Assisted</p>
+</div>
+<div class="stat">
+<h3>100%</h3>
+<p>Client Satisfaction</p>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+<h2>Professional Skills</h2>
+<div class="grid">
+<div class="card">🏗 RCC & Structural Design</div>
+<div class="card">📐 AutoCAD / Revit</div>
+<div class="card">📏 Surveying & Leveling</div>
+<div class="card">🏢 Site Supervision</div>
+<div class="card">📊 Project Planning</div>
+<div class="card">🌱 Sustainable Construction</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+<h2>Highlighted Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Residential Buildings</h3>
+<p>Design & supervision of RCC houses.</p>
+</div>
+<div class="card">
+<h3>Road Projects</h3>
+<p>Alignment, earthwork & QA/QC.</p>
+</div>
+<div class="card">
+<h3>Survey Works</h3>
+<p>Total station & topographic surveys.</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+<h2>Connect With Me</h2>
+<div class="card social">
+<a href="https://www.facebook.com/sudip.bagale.9/" target="_blank">Facebook</a>
+<a href="https://www.instagram.com/its_su_deep/" target="_blank">Instagram</a>
+<a href="https://www.linkedin.com/in/chudamani-bagale-607892227/" target="_blank">LinkedIn</a>
+<a href="https://www.tiktok.com/@er.su__deep_____" target="_blank">TikTok</a>
+</div>
+</section>
+
+<footer>
+© 2026 CM Bagale | Civil Engineer • Designed with passion
+</footer>
+
+<!-- POLYMORPHISM (JS OOP) -->
+<script>
+class Engineer{
+    role(){ return "Engineer"; }
+}
+class CivilEngineer extends Engineer{
+    role(){ return "Civil Engineer | Infrastructure & Construction"; }
+}
+class StructuralEngineer extends Engineer{
+    role(){ return "Structural Engineer | RCC & Steel Design"; }
+}
+
+const roles=[
+    new Engineer(),
+    new CivilEngineer(),
+    new StructuralEngineer()
+];
+
+let i=0;
+setInterval(()=>{
+    document.getElementById("roleText").innerText=roles[i].role();
+    i=(i+1)%roles.length;
+},2500);
+</script>
+
+</body>
+</html>
